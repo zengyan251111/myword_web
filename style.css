@@ -1,0 +1,36 @@
+/* MyWord 样式文件（蓝色主题） */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "微软雅黑", sans-serif;
+    background-color: #f5fafe; /* 浅蓝色背景 */
+}
+h1 {
+    color: #1976d2; /* 主蓝色标题 */
+    text-align: center;
+}
+/* 按钮样式（蓝色主题） */
+button {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1565c0; /* 按钮 hover 加深蓝色 */
+}
+/* 单词列表样式 */
+.word-list {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.word-item {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333;
+}
